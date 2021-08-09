@@ -1,0 +1,43 @@
+.title {
+
+    height: 10rem;
+    margin-top: 30%;
+}
+
+.buttons {
+
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+}
+
+.playButton {
+
+    height: 4rem;
+    --border-radius: 500px;
+    width: fit-content;
+    --padding-start: 5rem;
+    --padding-end: 5rem;
+    margin: 0 auto;
+}
+
+.helpButton {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 3rem;
+    opacity: 70%;
+    --border-radius: 10rem !important;
+    --padding-end: 1.25rem;
+
+    ion-icon {
+
+        margin-top: 0.2rem;
+        margin-right: 0.5rem;
+    }
+}

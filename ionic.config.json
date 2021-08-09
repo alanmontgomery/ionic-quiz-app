@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-quiz-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
